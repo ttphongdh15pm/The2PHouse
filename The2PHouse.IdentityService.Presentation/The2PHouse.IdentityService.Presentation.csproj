@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Carter" />
+    <PackageReference Include="MediatR" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\The2PHouse.IdentityService\The2PHouse.IdentityService.Infrastructure\The2PHouse.IdentityService.Infrastructure.csproj" />
+    <ProjectReference Include="..\The2PHouse.ServiceDefaults\The2PHouse.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

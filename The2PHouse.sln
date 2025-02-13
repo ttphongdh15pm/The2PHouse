@@ -1,0 +1,82 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.AppHost", "The2PHouse.AppHost\The2PHouse.AppHost.csproj", "{182D67E3-AEEE-46B1-9090-5B108BFF35D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.ServiceDefaults", "The2PHouse.ServiceDefaults\The2PHouse.ServiceDefaults.csproj", "{A4B99BA4-96A0-4ADD-B58B-79D230C819EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "The2PHouse.IdentityService", "The2PHouse.IdentityService", "{1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.Application", "The2PHouse.IdentityService\The2PHouse.IdentityService.Application\The2PHouse.IdentityService.Application.csproj", "{7BD46C93-9BED-4EC3-9AB5-4F06E73090FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.Domain", "The2PHouse.IdentityService\The2PHouse.IdentityService.Domain\The2PHouse.IdentityService.Domain.csproj", "{E17B62B2-E0CA-4B1A-93FF-85FA077D4D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.Infrastructure", "The2PHouse.IdentityService\The2PHouse.IdentityService.Infrastructure\The2PHouse.IdentityService.Infrastructure.csproj", "{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.Presentation", "The2PHouse.IdentityService.Presentation\The2PHouse.IdentityService.Presentation.csproj", "{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{0CF62FFB-88A7-45CA-9640-FB930B10E95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Messaging", "BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA0D5B35-361F-490C-8BB0-A71105DD0EE3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{182D67E3-AEEE-46B1-9090-5B108BFF35D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182D67E3-AEEE-46B1-9090-5B108BFF35D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182D67E3-AEEE-46B1-9090-5B108BFF35D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182D67E3-AEEE-46B1-9090-5B108BFF35D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B99BA4-96A0-4ADD-B58B-79D230C819EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B99BA4-96A0-4ADD-B58B-79D230C819EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B99BA4-96A0-4ADD-B58B-79D230C819EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B99BA4-96A0-4ADD-B58B-79D230C819EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD46C93-9BED-4EC3-9AB5-4F06E73090FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD46C93-9BED-4EC3-9AB5-4F06E73090FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD46C93-9BED-4EC3-9AB5-4F06E73090FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD46C93-9BED-4EC3-9AB5-4F06E73090FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17B62B2-E0CA-4B1A-93FF-85FA077D4D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17B62B2-E0CA-4B1A-93FF-85FA077D4D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17B62B2-E0CA-4B1A-93FF-85FA077D4D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17B62B2-E0CA-4B1A-93FF-85FA077D4D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BD46C93-9BED-4EC3-9AB5-4F06E73090FB} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
+		{E17B62B2-E0CA-4B1A-93FF-85FA077D4D45} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
+		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
+		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
+		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A} = {0CF62FFB-88A7-45CA-9640-FB930B10E95F}
+		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126} = {0CF62FFB-88A7-45CA-9640-FB930B10E95F}
+	EndGlobalSection
+EndGlobal
