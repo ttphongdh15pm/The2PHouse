@@ -14,8 +14,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.Infrastructure", "The2PHouse.IdentityService\The2PHouse.IdentityService.Infrastructure\The2PHouse.IdentityService.Infrastructure.csproj", "{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.Presentation", "The2PHouse.IdentityService.Presentation\The2PHouse.IdentityService.Presentation.csproj", "{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{0CF62FFB-88A7-45CA-9640-FB930B10E95F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Messaging", "BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}"
@@ -28,6 +26,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The2PHouse.IdentityService.Presentation", "The2PHouse.IdentityService\The2PHouse.IdentityService.Presentation\The2PHouse.IdentityService.Presentation.csproj", "{B1445593-E1E5-47D4-B023-091E8DF6955D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +55,6 @@ Global
 		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,6 +63,10 @@ Global
 		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1445593-E1E5-47D4-B023-091E8DF6955D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1445593-E1E5-47D4-B023-091E8DF6955D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1445593-E1E5-47D4-B023-091E8DF6955D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1445593-E1E5-47D4-B023-091E8DF6955D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,8 +75,8 @@ Global
 		{7BD46C93-9BED-4EC3-9AB5-4F06E73090FB} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
 		{E17B62B2-E0CA-4B1A-93FF-85FA077D4D45} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
 		{CD42EBEC-64BE-4D01-9E90-2C728AB2B149} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
-		{3F2A39FB-1259-4386-B484-9BB72B3D8BC8} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
 		{7CBC9F37-DFDF-433E-8946-415BD1F2AD5A} = {0CF62FFB-88A7-45CA-9640-FB930B10E95F}
 		{F6A49B2E-2BA9-47AC-BD3D-66A4E2172126} = {0CF62FFB-88A7-45CA-9640-FB930B10E95F}
+		{B1445593-E1E5-47D4-B023-091E8DF6955D} = {1FE2DCFA-5299-4E67-AA2C-111D08BEDC6F}
 	EndGlobalSection
 EndGlobal
