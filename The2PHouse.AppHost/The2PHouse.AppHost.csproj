@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\The2PHouse.IdentityService.Presentation\The2PHouse.IdentityService.Presentation.csproj" />
+    <ProjectReference Include="..\The2PHouse.IdentityService\The2PHouse.IdentityService.Presentation\The2PHouse.IdentityService.Presentation.csproj" />
   </ItemGroup>
-
 </Project>
